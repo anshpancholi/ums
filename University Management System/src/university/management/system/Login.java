@@ -42,8 +42,8 @@ public class Login extends JFrame implements ActionListener{
         t2.setBounds(150,70,150,30);
         add(t2);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/second.jpg"));
-        Image i2 = i1.getImage().getScaledInstance(200,200,Image.SCALE_DEFAULT);
+        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("university/management/system/icons/ansh_pic.jpg"));
+        Image i2 = i1.getImage().getScaledInstance(200,180,Image.SCALE_DEFAULT);
         ImageIcon i3 =  new ImageIcon(i2);
         JLabel l3 = new JLabel(i3);
         l3.setBounds(350,20,150,150);
